@@ -101,7 +101,7 @@ local function set_groups()
         Boolean = { fg = colors.blue },
         Float = { link = "Number" },
 
-        Identifier = { fg = colors.fg },
+        Identifier = { fg = colors.purple },
         Function = { fg = colors.purple },
         Method = { fg = colors.purple },
         Property = { fg = colors.blue },
