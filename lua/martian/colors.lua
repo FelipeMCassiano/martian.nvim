@@ -17,7 +17,7 @@ colors.fgAlt = "#e9efec"
 colors.fgCommand = "#e9efec"
 colors.fgInactive = "#e9efec"
 colors.fgDisabled = "393939"
-colors.fgLineNr = "#e9efen"
+colors.fgLineNr = "#e9efec"
 colors.fgSelection = "#ffffff"
 colors.fgSelectionInactive = "#ffffff"
 -- border colors
