@@ -106,7 +106,7 @@ local function set_groups()
         Method = { fg = colors.purple },
         Property = { fg = colors.blue },
         Field = { link = "Property" },
-        Parameter = { fg = colors.purple },
+        Parameter = { fg = colors.fg },
         Statement = { fg = colors.red },
         Conditional = { fg = colors.red },
         -- Repeat = {},
