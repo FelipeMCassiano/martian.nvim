@@ -26,7 +26,7 @@ colors.borderFocus = "#211e20"
 colors.borderDarker = "#211e20"
 -- ui colors
 colors.red = "#a2b3b2"
-colors.blue = "#a2b3b2"
+colors.blue = "#a53551"
 colors.orange = "#431837"
 colors.purple = "#a53551"
 colors.blueLight = "#e18f89"
