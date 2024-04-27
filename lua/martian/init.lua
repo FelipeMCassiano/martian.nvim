@@ -121,7 +121,7 @@ local function set_groups()
         Macro = { link = "Define" },
         PreCondit = { fg = colors.red },
 
-        Type = { fg = colors.redlight },
+        Type = { fg = colors.purple },
         Struct = { link = "Type" },
         Class = { link = "Type" },
 
