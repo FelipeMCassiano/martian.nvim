@@ -117,7 +117,7 @@ local function set_groups()
 
         PreProc = { link = "Keyword" },
         -- Include = {},
-        Define = { fg = colors.purple },
+        Define = { fg = colors.redlight },
         Macro = { link = "Define" },
         PreCondit = { fg = colors.red },
 
