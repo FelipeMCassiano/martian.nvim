@@ -26,20 +26,20 @@ colors.border = "#211e20"
 colors.borderFocus = "#211e20"
 colors.borderDarker = "#211e20"
 -- ui colors
-colors.red = shade("#a2b3b2", 0.6)
-colors.blue = shade("#a2b3b2", 0.7)
-colors.orange = shade("#431837", 0.2)
-colors.purple = shade("#a53551", 0.6)
-colors.blueLight = shade("#e18f89", 0.8)
-colors.orangeLight = shade("#e1c0a9", 0.7)
+colors.red = "#a2b3b2"
+colors.blue = "#a2b3b2"
+colors.orange = "#431837"
+colors.purple = "#a53551"
+colors.blueLight = "#e18f89"
+colors.orangeLight = "#e1c0a9"
 colors.yellowDark = "#e8e3e3"
 colors.green = "#a2b3b2"
-colors.redDark = shade("#e18f89", 0.9)
-colors.purpleDark = shade("#7a3045", 0.6)
+colors.redDark = "#e18f89"
+colors.purpleDark = "#7a3045"
 colors.comment = "#555568"
 colors.symbol = "#bbbbbb"
 colors.primary = "#e9efec"
 colors.terminalBrightBlack = "#1f1f29"
-colors.redlight = shade("#816271", 0.9)
+colors.redlight = "#993d41"
 
 return colors
