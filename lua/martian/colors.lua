@@ -40,6 +40,6 @@ colors.comment = "#555568"
 colors.symbol = "#bbbbbb"
 colors.primary = "#e9efec"
 colors.terminalBrightBlack = "#1f1f29"
-colors.redlight = "#993d41"
+colors.redlight = "#816271"
 
 return colors
