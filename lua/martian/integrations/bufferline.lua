@@ -36,7 +36,7 @@ function M.highlights(config)
         numbers_visible = { fg = colors.fgLineNr, bg = bg },
         numbers_selected = { fg = colors.fg, bg = colors.bg, italic = config.italics.bufferline or false },
         -- Errors
-        error = { fg = colors.red, bg = bg },
+        error = { fg = colors.redDark, bg = bg },
         error_visible = { fg = colors.red, bg = bg },
         error_selected = { fg = colors.red, bg = colors.bg, italic = config.italics.bufferline or false },
         error_diagnostic = { fg = colors.red, bg = bg },

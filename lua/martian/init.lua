@@ -133,7 +133,7 @@ local function set_groups()
         Punctuation = { fg = colors.symbol },
         Special = { fg = colors.symbol },
 
-        SpecialChar = { fg = colors.red },
+        SpecialChar = { fg = colors.redDark },
         Tag = { fg = colors.orangeLight },
         Delimiter = { fg = colors.symbol },
         -- SpecialComment = {},
