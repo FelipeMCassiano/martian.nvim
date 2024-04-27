@@ -1,4 +1,5 @@
 local config = require("martian.config")
+local shade = require("martian.utils").shade
 
 local colors = {
     white = "#ffffff",
@@ -39,6 +40,6 @@ colors.comment = "#555568"
 colors.symbol = "#bbbbbb"
 colors.primary = "#e9efec"
 colors.terminalBrightBlack = "#1f1f29"
-colors.redlight = "#5f737b"
+colors.redlight = shade("#816271", 0.4)
 
 return colors
