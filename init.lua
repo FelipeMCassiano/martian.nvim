@@ -44,39 +44,39 @@ vim.opt.belloff = "all"
 
 local lazypath = vim.fn.stdpath("data") .. "/development/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
-	vim.fn.system({
-		"git",
-		"clone",
-		"--filter=blob:none",
-		"https://github.com/folke/lazy.nvim.git",
-		"--branch=stable", -- latest stable release
-		lazypath,
-	})
+    vim.fn.system({
+        "git",
+        "clone",
+        "--filter=blob:none",
+        "https://github.com/folke/lazy.nvim.git",
+        "--branch=stable", -- latest stable release
+        lazypath,
+    })
 end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-	root = vim.fn.stdpath("data") .. "/min/lazy",
-	spec = {
-		"nvim-telescope/telescope.nvim",
-		"lewis6991/gitsigns.nvim",
-		"lukas-reineke/indent-blankline.nvim",
-		"nvim-lua/plenary.nvim",
-	},
+    root = vim.fn.stdpath("data") .. "/min/lazy",
+    spec = {
+        "nvim-telescope/telescope.nvim",
+        "lewis6991/gitsigns.nvim",
+        "lukas-reineke/indent-blankline.nvim",
+        "nvim-lua/plenary.nvim",
+    },
 })
 
-local theme = require("my-theme/init")
+local theme = require("martian/init")
 
 theme.setup({
-	theme = "dark",
-	transparent = true,
-	italics = {
-		comments = false,
-		keywords = true,
-		functions = true,
-		strings = false,
-		variables = true,
-	},
+    theme = "dark",
+    transparent = true,
+    italics = {
+        comments = false,
+        keywords = true,
+        functions = true,
+        strings = false,
+        variables = true,
+    },
 })
 
 vim.print(theme.config)
